@@ -99,11 +99,18 @@ The web app is developed in Java using Maven and hosted on Apache Tomcat in a Li
 
 ## 🧱 Project Structure
 
+# My Web Application
+
+This repository contains a web application deployed with **AWS CodePipeline**, **CodeBuild**, and **CodeDeploy**.  
+
+## Project Structure
+
+```bash
 .
 ├── index.jsp                 # Web app UI code
-├── settings.xml             # Maven & CodeArtifact configuration
-├── buildspec.yml            # CodeBuild configuration
-├── appspec.yml              # CodeDeploy instructions
+├── settings.xml              # Maven & CodeArtifact configuration
+├── buildspec.yml             # CodeBuild configuration
+├── appspec.yml               # CodeDeploy instructions
 ├── scripts/
 │   ├── install_dependencies.sh
 │   ├── start_server.sh
