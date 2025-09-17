@@ -116,7 +116,7 @@ This repository contains a web application deployed with **AWS CodePipeline**, *
 │   ├── start_server.sh
 │   └── stop_server.sh
 
-ls -la
+```
 
 ---
 
