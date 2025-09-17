@@ -32,6 +32,8 @@ The web app is developed in Java using Maven and hosted on Apache Tomcat in a Li
 - Source code version control
 - Trigger for the pipeline via webhook
 - Personal Access Token (PAT) for secure authentication
+  
+---
 
 ### 💻 VS Code
 - Remote-SSH extension used to connect and work with EC2 instances
@@ -118,6 +120,8 @@ This repository contains a web application deployed with **AWS CodePipeline**, *
 
 ```
 
+
+
 ---
 
 ## ⚙️ Workflow
@@ -141,6 +145,7 @@ This repository contains a web application deployed with **AWS CodePipeline**, *
    - Maven config (`settings.xml`) includes authentication tokens for repository access.
 
 ---
+
 ## 📦 Key Features
 
 ### 🟢 GitHub Integration
